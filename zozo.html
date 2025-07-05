@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flextest</title>
+    <style>
+      body
+ .container {
+  display: flex;
+  gap: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+.container {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.box {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 100px;
+  border-radius: 8px;
+}
+
+/* Tailles différentes */
+.grande {
+  width: 250px;
+  height: 150px;
+  background-color: orange;
+  line-height: 150px;
+}
+
+.moyenne {
+  width: 180px;
+  height: 120px;
+  background-color: green;
+  line-height: 120px;
+}
+
+.petite {
+  width: 120px;
+  height: 90px;
+  background-color: blue;
+  line-height: 90px;
+}
+.container {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-end; /* Aligne les cubes par le bas */
+}
+
+/* Style de base pour tous les cubes */
+.cube {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* box grand */
+.grand {
+  width: 200px;
+  height: 200px;
+  line-height: 1.5;
+  background-color: black; /* black */
+}
+
+/* box moyen */
+.moyen {
+  width: 150px;
+  height: 150px;
+  line-height: 3.9;
+
+  background-color: rosybrown; /* rose */
+}
+
+/* box petit */
+.petit {
+  width: 100px;
+  height: 100px;
+  line-height: 5.9;
+  background-color: green; /* vert */
+}
+
+ </style>
+ </body>
+</head>
+
+<body>
+  <div class="container">
+  <div class="box red">Boîte 1</div>
+  <div class="box blue">Boîte 2</div>
+  <div class="box green">Boîte 3</div>
+</div>
+</body>
+
+<body>
+  <div class="container">
+  <div class="box grande">box 1</div>
+  <div class="box moyenne">box 2</div>
+  <div class="box petite">box 3</div>
+</div>
+</body>
+
+<body>
+  <div class="container">
+  <div class="box grand">box</div>
+  <div class="box moyen">box</div>
+  <div class="box petit">box</div>
+</div>
+</body>
+</html>
