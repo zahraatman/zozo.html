@@ -1,2 +1,0 @@
-# zozo.html
-# dadi.html

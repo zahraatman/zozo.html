@@ -1,0 +1,197 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2024/02/23/18/59/desert-8592629_640.jpg');
+  background-size: cover;          /* L'image couvre tout l'écran */
+  background-repeat: no-repeat;    /* Ne pas répéter */
+
+  
+}
+.container {
+  width: 380px;  
+}
+.navication-bar {
+width: 100%;
+padding: 0px;
+display: flex;
+position: fixed;
+margin-right: 10px;
+top: 0;
+left: 0;
+z-index: 1000;
+
+}
+.navigation-bar .right-items {
+  flex-grow: 1; /* Pushes left items to the right */
+
+}
+
+.navigation-bar .left-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.navication-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+  .navication-bar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.navication-bar li  {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+ .right-items p {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  position: relative; /* Pour pouvoir le déplacer par rapport à sa position normale */
+  font-size: 150%;
+
+  }
+ .left-items a {
+  display: flex;
+  position: relative; /* Permet le déplacement avec 'left' */
+  top: -110px;          /* Vers le haut */
+  left: 490px;          /* Vers la droite */
+  font-size: 85%;
+  margin: 100px;
+  width: 0px 10px;
+ }
+ .navigation-bar li {
+  display: inline-block;
+  font-size:  20px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.logo p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.navication-bar a {
+  border-radius: 60px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.enfant {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 15px;
+  overflow: hidden;
+}
+.login-box  {
+  padding: 40px;
+  width: 400px;
+  border-radius: 10px 0;
+}
+a h4 {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: black;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgba(219, 173, 92, 0.57);
+  text-decoration: none;
+}
+input {
+  width: 99%;   
+  padding: 5px;  
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+h4:hover{
+  background-color:  rgba(255, 127, 80, 0.543);
+}
+
+.form-group {
+  padding: 5px;
+  margin: 2px;
+  margin-bottom: 15px;
+} 
+
+h2, p {
+  text-align: center;
+}
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.facebook-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: wheat;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  margin-top: 5px;
+}
+.facebook-btn:hover {
+  background-color:  rgba(255, 127, 80, 0.543);
+}
+
+.Google-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: wheat;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+   margin-top: 5px;
+
+}
+.Google-btn:hover {
+  background-color:  rgba(255, 127, 80, 0.543);
+}
+
+.Apple-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: wheat;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+.Apple-btn:hover {
+  background-color:  rgba(255, 127, 80, 0.543);
+}
+i {
+  font-size: 16PX;
+}
